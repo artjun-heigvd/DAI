@@ -1,0 +1,6 @@
+ch/heig/dai/lab/smtp/GroupEmail.class
+ch/heig/dai/lab/smtp/Config.class
+ch/heig/dai/lab/smtp/Client.class
+ch/heig/dai/lab/smtp/smtputils/SMTPSender.class
+ch/heig/dai/lab/smtp/smtputils/SMTPConstructor.class
+ch/heig/dai/lab/smtp/smtputils/SMTPSender$interfaceState.class

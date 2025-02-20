@@ -1,0 +1,20 @@
+# compose-replicas.yml file
+services:
+
+  site-a:
+    image: nginx
+    ports:
+      - "8080:80" # THIS DOES NOT WORK
+    volumes:
+      - ./site-a:/usr/share/nginx/html
+    deploy:
+      replicas: 5
+
+  site-b:
+    image: nginx
+    ports:
+      - "8081:80" # THIS DOES NOT WORK
+    volumes:
+      - ./site-b:/usr/share/nginx/html
+    deploy:
+      replicas: 5
